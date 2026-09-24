@@ -1,4 +1,4 @@
-# 🧩 LeetCode Practice & Automated Verification Environment
+# LeetCode Practice & Automated Verification Environment
 
 Welcome to my LeetCode problem-solving repository! This repository showcases my solutions to LeetCode algorithmic challenges, implemented across **C++**, **Java**, and **Python**.
 
@@ -24,7 +24,7 @@ Every problem includes worked code, time/space complexity analysis, edge-case co
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository is organized cleanly by problem number:
 
@@ -49,7 +49,7 @@ The repository is organized cleanly by problem number:
 
 ---
 
-## 🛠️ Tech Stack & Concepts Demonstrated
+## Tech Stack & Concepts Demonstrated
 
 * **Languages:** C++17, Java 11+, Python 3
 * **Data Structures:** Linked Lists, Hash Maps / Sets, Graph Adjacency, Vectors & Primitive Arrays
