@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "LeetCode: verify all",
+      "type": "shell",
+      "command": "python3 verify.py",
+      "windows": {
+        "command": "python verify.py"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "LeetCode: fetch descriptions 1-100",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "scripts/fetch_leetcode_descriptions.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
