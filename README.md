@@ -8,13 +8,7 @@ The repository is organized by problem number. Each completed problem contains a
 
 Progress toward 100 problems
 
-**1 / 100 — 1%**
-
-## Completed Problems
-
-| # | Title | Difficulty | Languages | Status | Primary Focus / Approach |
-|---|---|---|---|---|---|
-| 1 | Two Sum | Easy | C++, Java, Python | Complete | Hash map / one-pass lookup |
+**10 / 100 — 1%**
 
 ## Repository Structure
 
@@ -25,9 +19,7 @@ Progress toward 100 problems
 │   ├── Solution1.java
 │   └── 1.py
 ├── tests/
-│   ├── 1_test.cpp
-│   ├── Solution1Test.java
-│   └── test_1.py
+│   ├── test.py
 ├── .vscode/
 │   └── tasks.json
 ├── verify.py

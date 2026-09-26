@@ -52,3 +52,20 @@ python scripts/fetch_leetcode_descriptions.py --no-readmes
 - Re-running the script is safe; description files are regenerated and README
   Description sections are replaced rather than duplicated.
 - Internet access is required.
+## Fetch official editorials
+
+Run:
+
+```powershell
+python scripts/fetch_leetcode_editorials.py
+```
+
+This creates an `editorial/` folder containing one Markdown file per
+accessible official LeetCode Solution Article for problems 1 through 100.
+
+Problems without an accessible official solution are reported and skipped;
+the script does not substitute community solutions.
+
+You can also use the VS Code task:
+
+`LeetCode: fetch official editorials 1-100`
